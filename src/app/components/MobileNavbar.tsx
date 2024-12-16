@@ -14,15 +14,15 @@ import { Search } from 'lucide-react';
 
 function MobileNavbar() {
     return (
-        <div className="w-[390px] h-[69px] flex items-center justify-between">
-             <h1 className='font-montserrat text-[#22202E] text-2xl leading-[29.52px] ml-6' >Avion</h1>
-          <div className='flex items-center justify-between mr-4'> 
-          <Search className='size-4 mr-4'/>
+        <div className="h-[69px] flex items-center justify-between ">
+             <h1 className='font-montserrat text-[#22202E] text-2xl leading-[29.52px] pl-8'>Avion</h1>
+          <div className='flex items-center justify-between gap-4 pr-8'> 
+          <Search className='size-4'/>
             <Sheet>
                 <SheetTrigger>
                     <Menu className=''/>
                 </SheetTrigger>
-                <SheetContent className="w-[200px] sm:w-[240px]">
+                <SheetContent className="">
                     <SheetHeader>
                         <SheetDescription  className="flex flex-col text-myPrimary items-end mt-8 text-base justify-between">
                             
