@@ -11,7 +11,7 @@ import { BsRecycle } from "react-icons/bs";
 export default function TrustedBrand() {
     return (
         <section className="w-full md:h-[55vh] h-[92vh] mx-auto">
-            <h1 className="font-montserrat font-normal lg:text-2xl text-[20px] py-8 text-center">What makes our brand different</h1>
+            <h1 className="font-montserrat font-normal md:text-2xl text-[20px] py-8 text-center">What makes our brand different</h1>
             <div className='md:h-[38vh] md:w-[92%] flex flex-col md:flex-row md:justify-between md:gap-0 gap-2 mx-auto'>
 
                 <div className="md:w-[24%] md:h-full w-full h-[24%] bg-myWhite">
