@@ -17,7 +17,7 @@ export default function Home() {
      <TrustedBrand/>
      <ProductGrid />
      <PopularProduct/>
-     <SignupSection />
+     <SignupSection /> 
      <Bio />
     
     </div>

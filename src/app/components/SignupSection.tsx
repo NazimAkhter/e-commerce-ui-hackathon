@@ -16,7 +16,7 @@ export default function SignupSection() {
 
       </div>
 
-          <div className="w-[92%] md:w-2/5 mx-auto md:-mt-12 -mt-16 flex justify-center">
+          <div className="w-[92%] md:w-2/5 mx-auto md:-mt-12  flex justify-center">
         <input
           type="text"
           placeholder="your@email.com"

@@ -53,7 +53,7 @@ function Footer() {
             <input
               type="text"
               placeholder="your@email.com"
-              className="w-2/3 bg-myPrimary/85 pl-3 md:pl-6 md:py-4 text-myWhite"
+              className="w-[60%] bg-myPrimary/85 pl-3 md:pl-6 md:py-4 text-myWhite"
             />
             <div className=" text-darkPrimary bg-myWhite hover:bg-gray-100 active:bg-gray-200">
               <Button title="Sign up" />

@@ -20,21 +20,17 @@ function MobileNavbar() {
           <Search className='size-4'/>
             <Sheet>
                 <SheetTrigger>
-                    <Menu className=''/>
+                    <Menu className='size-6'/>
                 </SheetTrigger>
                 <SheetContent className="">
                     <SheetHeader>
-                        <SheetDescription  className="flex flex-col text-myPrimary items-end mt-8 text-base justify-between">
+                        <SheetDescription  className="flex flex-col text-myWhite items-end mt-8 text-base justify-between">
                             
-                                <Link href="" className="mr-1 my-2 hover:text-darkPrimary text-right">Plant pots</Link>
-                                <Link href="" className="mr-1 my-2 hover:text-darkPrimary text-right">Ceramics</Link>
-                                <Link href="" className="mr-1 my-2 hover:text-darkPrimary text-right">Tables</Link>
-                                <Link href="" className="mr-1 my-2 hover:text-darkPrimary text-right">Chairs</Link>
-                                <Link href="" className="mr-1 my-2 hover:text-darkPrimary text-right">Crockery</Link>
-                                <Link href="" className="mr-1 my-2 hover:text-darkPrimary text-right">Tableware</Link>
-                                <Link href="" className="mr-1 my-2 hover:text-darkPrimary text-right">Cutlery</Link>
-
-                          
+                        <Link href="/" className="mr-1 my-2 hover:text-borderDark text-right">Home</Link>
+                        <Link href="/About" className="mr-1 my-2 hover:text-borderDark text-right">About us</Link>
+                        <Link href="/Contact" className="mr-1 my-2 hover:text-borderDark text-right">Contact</Link>
+                               
+                                                      
                         </SheetDescription>
                     </SheetHeader>
                 </SheetContent>

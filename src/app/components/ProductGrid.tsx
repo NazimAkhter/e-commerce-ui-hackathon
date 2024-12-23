@@ -4,8 +4,8 @@ import Link from "next/link";
 
 export default function ProductGrid() {
   return (
-    <section className="w-full h-1/6">
-      <h1 className="w-[92%] mx-auto text-start md:text-[32px] mt-5 text-xl mb-5 font-montserrat font-normal">
+    <section className="w-full md:h-1/6 md:mt-0 mt-[520px]">
+      <h1 className="w-[92%] mx-auto text-start md:text-[32px] mt-36 text-xl mb-5 font-montserrat font-normal">
         New ceramics
       </h1>
 
@@ -22,7 +22,7 @@ export default function ProductGrid() {
           />
         </div>
 
-        <div className="mb-24 w-full cursor-pointer ">
+        <div className="mb-24 w-full cursor-pointer">
           <Card src="/silky-vase.jpg" tag="The Silky Vase" price="&pound;125" />
         </div>
 

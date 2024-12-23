@@ -8,7 +8,7 @@ import Button from "./common/Button";
 
 export default function PopularProduct() {
   return (
-    <section className="w-full h-1/6 mt-40">
+    <section className="w-full h-1/6 mt-48">
     <h1 className="w-[92%] mx-auto text-start md:text-[32px] mt-5 text-xl mb-5 font-montserrat font-normal">Our popular products</h1>
 
      <div className="mx-auto w-[92%] grid grid-cols-2 md:grid-cols-4 gap-2 ">
